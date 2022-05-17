@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/csharp/jarin-whatsapp-csharp/bin/Debug
+/csharp/jarin-whatsapp-csharp/obj
