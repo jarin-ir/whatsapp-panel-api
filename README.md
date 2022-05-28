@@ -19,6 +19,5 @@ C# -
 python -
 
 
-پنل واتساپ جارین :
 
-[پنل واتساپ](https://jarin.ir/whatsapp/)
+[خرید پنل واتساپ](https://jarin.ir/whatsapp/)
