@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'http://wp.jarin.ir/Api/SendMessage.php'
+url = 'http://whatspanel.ir/Api/SendMessage.php'
 myobj = {
          "phoneNumber": "09121111111" ,   #phonenumber of panel
          "passWord": "12345678" , #password of panel

@@ -8,7 +8,7 @@ $data=array(
     'lines'=>"09133333333",              // message lines - for two or more line use - examle 09121111111;09122222222
 );
 
-$url = "http://wp.jarin.ir/Api/SendMessage.php";
+$url = "http://whatspanel.ir/Api/SendMessage.php";
 
 $handler = curl_init($url);
 

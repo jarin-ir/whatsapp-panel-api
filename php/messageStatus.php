@@ -6,7 +6,7 @@ $data=array(
     'messageId'=>"287455796",         // id of message
 );
 
-$url = "http://wp.jarin.ir/Api/MessageStatus.php";
+$url = "http://whatspanel.ir/Api/MessageStatus.php";
 
 $handler = curl_init($url);
 

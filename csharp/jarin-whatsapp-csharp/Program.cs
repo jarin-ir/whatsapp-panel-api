@@ -76,7 +76,7 @@ namespace jarin_whatsapp_csharp
             var content = new FormUrlEncodedContent(values);
 
             //url for send message
-            var response = await client.PostAsync("http://wp.jarin.ir/Api/SendMessage.php", content);// wait for send request
+            var response = await client.PostAsync("http://whatspanel.ir/Api/SendMessage.php", content);// wait for send request
 
             var responseString = await response.Content.ReadAsStringAsync();//wait for get response
 
@@ -135,7 +135,7 @@ namespace jarin_whatsapp_csharp
             var content = new FormUrlEncodedContent(values);
 
             //wait for send request
-            var response = await client.PostAsync("http://wp.jarin.ir/Api/MessageStatus.php", content);
+            var response = await client.PostAsync("http://whatspanel.ir/Api/MessageStatus.php", content);
 
             //wait for response
             var responseString = await response.Content.ReadAsStringAsync();

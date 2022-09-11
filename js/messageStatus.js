@@ -1,6 +1,6 @@
 const request = require('request');
 
-request.post('http://wp.jarin.ir/Api/MessageStatus.php', {
+request.post('http://whatspanel.ir/Api/MessageStatus.php', {
     form: {
         phoneNumber: "09121111111",     // phonenumber of panel
         passWord: "12345678",           // password of panel
